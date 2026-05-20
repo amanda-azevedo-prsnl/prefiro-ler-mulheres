@@ -47,9 +47,13 @@ export default function Home() {
     e.preventDefault();
     if (!email) return;
     setLoading(true);
-    await new Promise((r) => setTimeout(r, 800));
-    setSubmitted(true);
+    const res = await fetch('/api/waitlist', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email }),
+    });
     setLoading(false);
+    if (res.ok || res.status === 409) setSubmitted(true);
   }
 
   return (
