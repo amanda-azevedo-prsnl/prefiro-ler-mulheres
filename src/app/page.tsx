@@ -78,9 +78,9 @@ export default function Home() {
           Em breve
         </p>
         <h1 style={{ fontFamily: "var(--font-playfair)" }} className="text-5xl md:text-7xl text-[#1C1C1C] leading-tight mb-8">
-          Uma plataforma para{" "}
-          <span style={{ fontStyle: "italic" }} className="text-[#8B2E2E]">mulheres que escrevem</span>
-          <br />e mulheres que leem.
+          A literatura feminina{" "}
+          <span style={{ fontStyle: "italic" }} className="text-[#8B2E2E]">tem muito a dizer.</span>
+          <br />Aqui você escuta tudo.
         </h1>
         <p className="text-lg text-[#555] max-w-2xl mx-auto leading-relaxed mb-12">
           Newsletters, podcasts, leituras conjuntas e curadoria direcionada —
