@@ -77,7 +77,7 @@ export default function Home() {
         <p className="text-xs font-medium tracking-widest uppercase text-[#C4956A] mb-6">
           Em breve
         </p>
-        <h1 style={{ fontFamily: "var(--font-playfair)" }} className="text-5xl md:text-7xl text-[#1C1C1C] leading-tight mb-8">
+        <h1 style={{ fontFamily: "var(--font-playfair)" }} className="text-4xl md:text-6xl text-[#1C1C1C] leading-tight mb-8">
           A literatura feminina{" "}
           <span style={{ fontStyle: "italic" }} className="text-[#8B2E2E]">tem muito a dizer.</span>
           <br />Aqui você escuta tudo.
